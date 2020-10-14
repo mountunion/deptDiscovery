@@ -1,0 +1,64 @@
+body { font-family: Verdana, Arial, sans-serif;
+}
+
+table.UMUExceptional { border: none; border-spacing: 0;
+					 background-image: url("logo-lq-n.png");
+					 height: 140px;
+					 background-position: left;
+					 background-repeat: no-repeat;
+					 width: 100%;
+}
+
+table.UMUExceptional td { border: none; border-spacing: 0; }
+table.UMUExceptional td:first-of-type { width: 220px; }
+
+
+@media only screen and (max-width: 580px)
+{
+	.departmentName { font-size: 1.0em; }
+}
+
+@media only screen and (max-width: 665px) and (min-width: 581px)
+{
+	.departmentName { font-size: 1.25em; }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 666px)
+{
+	.departmentName { font-size: 1.5em; }
+}
+
+@media only screen and (min-width: 851px)
+{
+	.departmentName { font-size: 2.0em; }
+}
+
+@media only screen and (max-width: 750px)
+{
+	.courses { font-size: 0.75em; }
+	.links { font-size: 0.75em; }
+}
+
+@media only screen and (min-width: 751px)
+{
+	.courses { font-size: 1.0em; }
+	.links { font-size: 1.0em; }
+}
+
+a {
+    padding: 2px;
+	text-decoration: none;
+    color: #909;
+	transition: background 0.5s linear 0s, color 0.5s linear 0s;
+}
+
+a:hover {
+    color: #fff;
+	background: #909;
+}
+
+
+.links {
+    line-height: 1.5em;
+}
+
